@@ -47,3 +47,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product-if-exists, vendor/samsung/gts7lwifi/gts7lwifi-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
